@@ -1,0 +1,25 @@
+.section {
+  padding: 20px;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+}
